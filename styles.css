@@ -188,7 +188,9 @@ p { color: var(--text-secondary); }
 }
 
 .primary-btn {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
     padding: 0.6rem 1.2rem;
     background-color: var(--primary-color);
     color: white;
