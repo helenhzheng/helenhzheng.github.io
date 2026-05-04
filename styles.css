@@ -170,11 +170,11 @@ p { color: var(--text-secondary); }
 
 /* Hero Section */
 .hero {
-    min-height: 80vh; /* Reduced from 100vh so content is visible on load */
+    min-height: auto; /* Removed 80vh to reduce extra bottom space */
     display: flex;
     align-items: center;
-    padding-top: 6rem; /* Account for navbar */
-    padding-bottom: 2rem;
+    padding-top: 8rem; /* Increased top padding slightly for balance */
+    padding-bottom: 1.5rem; /* Reduced bottom padding */
 }
 
 .hero-content {
