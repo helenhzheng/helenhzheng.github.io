@@ -199,12 +199,13 @@ p { color: var(--text-secondary); }
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
-    padding: 0.6rem 1.2rem;
+    padding: 0.5rem 0.9rem;
     background-color: var(--primary-color);
     color: white;
     text-decoration: none;
     border-radius: 6px;
     font-weight: 600;
+    font-size: 0.9rem;
     margin-top: 1.5rem;
     transition: opacity 0.2s ease, transform 0.2s ease;
 }
