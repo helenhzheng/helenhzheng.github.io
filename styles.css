@@ -132,6 +132,10 @@ p { color: var(--text-secondary); }
     padding: 2rem 2rem; /* Reduced from 4rem to halve the space between sections */
 }
 
+#about {
+    padding-top: 0;
+}
+
 .section-title {
     text-align: left;
     position: relative;
@@ -170,11 +174,11 @@ p { color: var(--text-secondary); }
 
 /* Hero Section */
 .hero {
-    min-height: auto; /* Removed 80vh to reduce extra bottom space */
+    min-height: auto;
     display: flex;
     align-items: center;
-    padding-top: 8rem; /* Increased top padding slightly for balance */
-    padding-bottom: 1.5rem; /* Reduced bottom padding */
+    padding-top: 6rem; /* Reduced from 8rem */
+    padding-bottom: 0.5rem; /* Reduced from 1.5rem */
 }
 
 .hero-content {
@@ -206,7 +210,7 @@ p { color: var(--text-secondary); }
     border-radius: 6px;
     font-weight: 600;
     font-size: 0.9rem;
-    margin-top: 1.5rem;
+    margin-top: 1rem; /* Reduced from 1.5rem */
     transition: opacity 0.2s ease, transform 0.2s ease;
 }
 
